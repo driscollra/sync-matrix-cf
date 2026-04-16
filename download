@@ -1,0 +1,14 @@
+{
+  "name": "sync-matrix",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Shared live staff scheduling matrix on Cloudflare Workers with user auth and audit log",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "logs": "wrangler tail"
+  },
+  "devDependencies": {
+    "wrangler": "^3.90.0"
+  }
+}
